@@ -1,0 +1,10 @@
+{
+    "bu":"pnet, tcx, tmsi... (Used as part of automatic routing key)",
+    "env":"prod,dev,qa,stage...(Used as part of automatic routing key",
+    "hostEnv":"Azure, AWS, Chaska DC... (Used as part of automatic routing key, listener will decorate if not given per it's config",
+    "app":"listener",
+    "version":"- optional",
+    "metrics":{"metric1":1, "metric2":0},
+    "route":"p.mos.someextraroute - This is optional",
+    "token":"ABCDEFGHIJK (Optional, can be used for security or decoration..)"
+}
