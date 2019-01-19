@@ -1,0 +1,9 @@
+{
+    "Broker":"localhost",
+    "BrokerUser":"guest", 
+    "BrokerPwd":"guest",
+    "BrokerExchange":"amq.topic",
+    "BrokerVhost":"/",
+    "ChannelCount":4,
+    "SrvPort":"8514"
+}
