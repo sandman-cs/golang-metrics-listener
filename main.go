@@ -27,7 +27,8 @@ func main() {
 			continue
 		}
 		fmt.Println(string(buf[:n]))
-		messages <- chanToRabbit{string(buf[0:n]), "tcx.metrics"}
+		messages <- chanToRabbit{string(buf[0:n]), getRouteKey(buf[0:n])}
+		//messages <- chanToRabbit{string(buf[0:n]), "tcx.metrics"}
 	}
 }
 

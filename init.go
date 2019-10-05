@@ -22,7 +22,7 @@ func init() {
 
 	//Load Default Configuration Values
 	conf.AppName = "Go - UDP to RMQ"
-	conf.AppVer = "1.0"
+	conf.AppVer = "0.1"
 	conf.ServerName, _ = os.Hostname()
 	conf.ChannelSize = 2048
 	conf.SrvPort = "8514"
